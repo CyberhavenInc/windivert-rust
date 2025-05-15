@@ -19,7 +19,7 @@ fn main() {
 
     let arch = match env::var("CARGO_CFG_TARGET_ARCH").unwrap().as_ref() {
         "x86" => "32",
-        "x86_64" => "64",
+        "x86_64" | "aarch64" | "arm" => "64",
         _ => panic!("Unsupported target architecture!"),
     };
 
