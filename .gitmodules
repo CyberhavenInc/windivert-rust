@@ -1,3 +1,4 @@
 [submodule "windivert-sys/vendor"]
 	path = windivert-sys/vendor
-	url = git@github.com:basil00/Divert.git
+	url = https://github.com/CyberhavenInc/WinDivert.git
+	branch = arm64_support
